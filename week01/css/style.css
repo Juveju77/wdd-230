@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+h1 {
+  background-color: #0637d6;
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+h2 {
+  background-color: #063dd6;
+  font-size: 2em;
+  margin-bottom: 50px;
+  padding: 0.5em;
+}
