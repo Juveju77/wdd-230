@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+h1 {
+  display: block;
+  margin-block-start:0.67em;
+  margin-block-end:0.67em;
+  margin-inline-start:0px;
+  margin-inline-end:0px;
+  background-color: #06C7D6;
+  color: snow;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'righteous', cursive;
+  border-radius: 6px;
+  padding: 50px;
+}
+h2{
+  display: block;
+  position: relative;
+  top: -100px;
+  left: 50px;
+  font-size: 2em;
+  margin-block-start:0.67em;
+  margin-block-end:0.67em;
+  margin-inline-start:0px;
+  margin-inline-end:0px;
+  
+}
+section, footer {
+  font-family: 'righteous', cursive;
+}
+img {
+  position: relative;
+  top: -155px;
+  left: -520px;
+}
+
+footer {
+  display: grid;
+  Justify-items: center;
+  background-color: #06C7D6;
+  font-size: 2em;
+  color: seashell;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+}
+body {
+  text-align: center;
+}
+nav{
+  display: block;
+}
+ul{
+ display: block;
+ list-style-type: disc;
+  margin-block-start:1em;
+  margin-block-end:1em;
+  margin-inline-start:0px;
+  margin-inline-end:0px;
+  margin-inline-start: 40px;
+}
+ li {
+  font-size: 1.5em;
+  display: list-item; 
+}
