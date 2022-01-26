@@ -1,0 +1,156 @@
+html,body {
+    background-color: seagreen;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow-x: hidden;  
+}
+p{
+    font-size: 1.5em;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 1.5rem;
+}
+h1 img{
+  width: 400px;
+}
+
+h2{
+    font-size: 1rem;
+}
+h2 img{
+  width: 400px;  
+  position: relative;
+  top: -340px;
+  right: -520px;
+}
+h3 img{
+  position: relative;
+  top: -680px;
+  right: -1060px;
+  width: 400px;
+  height: 250px;
+}
+h4{
+  position: relative;
+  top: -380px;
+  right: -490px;
+}
+
+header {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    background-color: #795548;
+    color: seashell;
+    padding: 1rem;
+    width: -1500px;
+}
+header img{
+  position: relative;
+  left: 550px
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+main, footer {
+    font-family: 'Oswald', sans-serif;
+}
+
+footer {
+    background-color: #795548;
+    color: seashell;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#lastupdated {
+    font-style: italic;
+    font-size: smaller;
+}
+#target{
+  color: black;
+  font-family: 'Righteous', cursive;
+  font-size: 1.5em;
+  position: relative;
+  top: -25px;
+  right: -110px;
+  
+}
+ul li{
+  list-style: none;
+}
+#color{
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Righteous', cursive;
+  position: relative;
+  top: -360px;
+  right: -610px;
+  
+}
+#font{
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Righteous', cursive;
+  position: relative;
+  top: -710px;
+  right: -1165px;
+} 
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: blue;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: #336611;
+  }
+  .secondary {
+    background-color: #795548;
+  }
+  .accent1 {
+    background-color: #00FFFF;
+  }
+  .accent2{
+    background-color: #808080;
+  }
+  h8{
+    font-family: 'oswald', sans-serif;
+    font-size: 1.5em;
+    background-color: #336611;
+  }
+  #bold{
+    font-family: 'oswald', sans-serif;
+    font-size: 1.5em;
+    background-color: #795548;
+  }
+  h9{
+    font-family: 'rightoues', cursive;
+    font-size: 1.5em;
+    background-color: #00FFFF;
+  }
+  #fun{
+    font-family: 'rightoues', cursive;
+    font-size: 1.5em;
+    background-color: #808080;
+  }
