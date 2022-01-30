@@ -1,0 +1,167 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    background-color: #00FFFF;
+}
+
+main {
+    display: grid;
+    grid: repeat(5, 1fr)/ 1fr;
+    grid-row-gap: 10px;
+    padding: 1em;
+    margin: auto 1rem;
+    font-size: .7em;
+}
+
+main section {
+    background-color: #808080;
+    padding: .5em;
+}
+
+header {
+    display: grid;
+    grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    font-size: .6em;
+    font-family: 'oswald', cursive;
+    background-color: #795548;
+    color: white;
+    padding: .2em;
+    margin-bottom: .5rem;
+    grid-column-gap: .8rem;
+}
+
+.logo {
+    width: 10px;
+}
+
+h1 {
+    padding-left: 5px;
+}
+
+button {
+    background-color: #336611;
+    color: white;
+    border: none;
+    font-size: 2em;
+}
+
+.extra {
+    display: none;
+}
+
+.date {
+    grid-row: 2/3;
+    grid-column: 1/5;
+    align-self: center;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+    margin: 0;
+    padding: .5rem;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    font-size: 1em;
+    top: 15%;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem 2vw;
+	text-decoration: none;
+	color: white;
+	transition: 0.2s;
+    font-size: 2rem;
+    position: relative;
+    left: -120px;
+}
+
+.navigation a:hover {
+    background-color: #336611;
+}
+
+.hidden {
+    display: none;
+}
+
+.toggle-btn {
+    padding: 1em;
+}
+
+.responsive li {
+	display: block;
+}
+
+.responsive ul {
+    position: relative;
+    left: 200px;
+    width: 100%;
+}
+
+.responsive a {
+    background-color: #336611;
+}
+
+.spotlight {
+    display: grid;
+    grid: 1fr 1fr / 1fr;
+    grid-row-gap: 2px;
+}
+
+.spotlight p {
+    border: 1px dotted #355B8C;
+
+}
+
+#spotlight3 {
+    display: none;
+}
+
+.join {
+    display: none;
+}
+
+.logo {
+    width: 75px;
+}
+.logoimg{
+    width: 100%;
+    height:auto;
+}
+.picc img{
+    width: 20%;
+    height: auto;
+}
+
+.icon {
+    width: 40px;
+}
+
+.social a img {
+    padding: .3em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #336611;
+    color: white;
+}
+
+.wdd-info {
+    padding: .5rem;
+}
+
