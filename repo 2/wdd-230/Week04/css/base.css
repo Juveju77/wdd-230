@@ -165,3 +165,51 @@ footer {
     padding: .5rem;
 }
 
+.spotlight img{
+    height: 200px;
+    width: 150px;
+}
+ .hero img {
+    height: 500px;
+    width: 500px;
+ }
+ .adventures{
+    margin: 1em 1em;
+    padding: 1em;
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1;
+    color: black;
+    background-color: greenyellow;
+    width: 400px;
+    position: relative;
+    top: -105px;
+    right: -30px;
+    
+  }
+  #adventure{
+    background-color: white;
+    border: black;
+  }
+  
+  .adventures b{
+    line-height: 2em;
+    width: 10em;
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+  }
+  :hover button{
+      color: whitesmoke;
+  }
+  h2,h3,h4,h5,h6,h7{
+      background-color: #336611;
+      font-size: 2em;
+      font-family: Righteous, cursive;
+      justify-content: center;
+  }
+  p{
+      font-family: oswald,cursive;
+      font-size: 1.5em;
+  }
+
