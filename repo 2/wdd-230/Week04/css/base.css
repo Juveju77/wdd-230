@@ -1,5 +1,5 @@
 body {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'oswald', cursive;
     font-size: 16px;
     background-color: #00FFFF;
 }
@@ -16,6 +16,7 @@ main {
 main section {
     background-color: #808080;
     padding: .5em;
+    margin: 0;
 }
 
 header {
@@ -115,12 +116,6 @@ nav {
     background-color: #336611;
 }
 
-.spotlight {
-    display: grid;
-    grid: 1fr 1fr / 1fr;
-    grid-row-gap: 2px;
-}
-
 .spotlight p {
     border: 1px dotted #355B8C;
 
@@ -167,7 +162,7 @@ footer {
 
 .spotlight img{
     height: 200px;
-    width: 150px;
+    width: 350px;
 }
  .hero img {
     height: 500px;
@@ -205,11 +200,29 @@ footer {
   h2,h3,h4,h5,h6,h7{
       background-color: #336611;
       font-size: 2em;
-      font-family: Righteous, cursive;
-      justify-content: center;
+      font-family: 'Righteous', cursive;
+      text-align: center;
   }
   p{
-      font-family: oswald,cursive;
+      font-family: 'oswald',cursive;
       font-size: 1.5em;
   }
 
+  main section h3 {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 8px;
+    margin: 5px;
+  }
+
+  main section h2 {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 8px;
+    margin: auto;
+  }
+  h4{
+      margin: 10px;
+    
+  }
+  
