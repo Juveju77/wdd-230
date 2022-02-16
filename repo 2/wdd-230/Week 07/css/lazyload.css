@@ -1,0 +1,33 @@
+body, img{
+    max-width: 780px;
+    margin:0 auto;
+    align-content: center;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+article img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+
+  img {
+    min-width: 100px;
+    min-height: 100px;
+    border: red;
+  }
+
+  [data-src] {
+    min-width: 100px;
+    min-height: 100px;
+  }
