@@ -191,6 +191,7 @@ footer {
   }
   h2,h3,h4,h5,h6,h7{
       background-color: #336611;
+      color: white;
       font-size: 2em;
       font-family: 'Righteous', cursive;
       text-align: center;
@@ -218,3 +219,51 @@ footer {
     
   }
   
+
+.discover-main {
+    display: grid;
+    grid-template-rows: minmax(min-content, max-content);
+    grid-template-columns: minmax(min-content, max-content);
+    max-width: 400px;
+}
+
+.discover-main h2 {
+    color: white;
+    background-color: #336611;
+    font-size: 3em;
+    padding-left: 1em;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.deck {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.card {
+    display: grid;
+    justify-items: center;
+    padding: 1em;
+    margin: 1em auto;
+    background-color: #BF6F7E40;
+    /* z-index: -2; */
+}
+
+.card p {
+    margin-top: auto;
+    padding: 0 1em;
+}
+
+
+.discover img {
+    filter: blur(0em);
+    transition: filter 0.1s;
+    /* z-index: -1; */
+  }
+
+.discover-main > p {
+    font-style: italic;
+    color: #011640;
+}
