@@ -68,14 +68,14 @@
         "address": "1401 SW Naito Pkwy,\nPortland, OR 97201",
         "phone": "(503) 226-7600",
         "website": "https://www.marriott.com/en-us/hotels/pdxor-portland-marriott-downtown-waterfront/overview/?scid=45f93f1b-bd77-45c9-8dab-83b6a417f6fe&y_source=1_NzQ4MDcxLTQ2Mi1sb2NhdGlvbi53ZWJzaXRl",
-        "imgfile": ""
+        "imgfile": "images/marriot.jpg"
       },
       {
         "name": "Nostrana",
         "address": "1401 SE Morrison St, \nPortland, OR 97214",
         "phone": "(503) 234-2427",
         "website": "https://nostrana.com/",
-        "imgfile": "images/marriot.jpg"
+        "imgfile": "images/nos.jpg"
       },
       {
         "name": "Game Crazy",
