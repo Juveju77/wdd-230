@@ -1,0 +1,88 @@
+{
+    "businesses": [
+      {
+        "name": "Lloyd Center Mall",
+        "address": "2201 Lloyd Center, \nPortland, OR 97232",
+        "phone": "(503) 282-2511",
+        "website": "https://lloydcenter.com/",
+        "imgfile": "images/centerr.jpg"
+      },
+      {
+        "name": "University of Oregon",
+        "address": "1585 E 13th Ave, \nEugene, OR 97403",
+        "phone": "(541) 346-1000",
+        "website": "https://www.uoregon.edu/",
+        "imgfile": "images/orregon.jpg"
+      },
+      {
+        "name": "YMCA",
+        "address": "601 SW 2nd Ave, Ste 110, \nPortland, OR ",
+        "phone": "(503) 225-9622",
+        "website": "https://www.ymca.org/",
+        "imgfile": "images/ymcaa.jpg"
+      },
+      {
+        "name": "Llyod Center Movie Thearter",
+        "address": "1510 NE Multnomah Street, \nPortland, OR, 97232",
+        "phone": "(844) 462-7342",
+        "website": "https://www.regmovies.com/",
+        "imgfile": "images/regal.jpg"
+      },
+      {
+        "name": "Mt Hood",
+        "address": "93732 East Highway 26, \nGovernment Camp, OR  97028",
+        "phone": "(503) 337-2230",
+        "website": "https://www.mthood.com/",
+        "imgfile": "images/mtthood.jpg"
+      },
+      {
+        "name": "Fred Meyer",
+        "address": "7404 N Interstate Ave, \nPortland, OR 97217",
+        "phone": "(503) 286-6751",
+        "website": "https://www.fredmeyer.com/",
+        "imgfile": "images/freeed.jpg"
+      },
+      {
+        "name": "Oregon Coast Aquarium",
+        "address": "2820 SE Ferry Slip Rd, \nNewport, OR 97365",
+        "phone": "(541) 867-3474",
+        "website": "https://aquarium.org/",
+        "imgfile": "images/Aquarium-Logo.png"
+      },
+      {
+        "name": "Portland Rose Gardens",
+        "address": "595 SW Kingston Ave, \nPortland, OR 97205",
+        "phone": "(503) 823-3636",
+        "website": "https://www.facebook.com/Portland-Rose-Garden-Store-498427406860801",
+        "imgfile":"images/rosse.jpg"
+      },
+      {
+        "name": "Columbia River Cruises",
+        "address": "344 Industry St, \nAstoria, OR 97103",
+        "phone": " (503) 888-6096",
+        "website": "https://www.columbiarivercruises.com/",
+        "imgfile": "images/Columbia.png"
+      },
+      {
+        "name": "Portland Marriott Downtown Waterfront",
+        "address": "1401 SW Naito Pkwy,\nPortland, OR 97201",
+        "phone": "(503) 226-7600",
+        "website": "https://www.marriott.com",
+        "imgfile": "images/marriot.jpg"
+      },
+      {
+        "name": "Nostrana",
+        "address": "1401 SE Morrison St, \nPortland, OR 97214",
+        "phone": "(503) 234-2427",
+        "website": "https://nostrana.com/",
+        "imgfile": "images/nos.jpg"
+      },
+      {
+        "name": "Game Crazy",
+        "address": "4855 Commercial St SE, \nSalem, OR 97302",
+        "phone": "(503) 364-4645",
+        "website": "http://gamecrazy.com/",
+        "imgfile": "images/gamecrazyy.jpg"
+      }
+    ]
+}
