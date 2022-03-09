@@ -33,7 +33,7 @@
         "address": "93732 East Highway 26, \nGovernment Camp, OR  97028",
         "phone": "(503) 337-2230",
         "website": "https://www.mthood.com/",
-        "imgfile": "mtthood.jpg"
+        "imgfile": "images/mtthood.jpg"
       },
       {
         "name": "Fred Meyer",
@@ -67,7 +67,7 @@
         "name": "Portland Marriott Downtown Waterfront",
         "address": "1401 SW Naito Pkwy,\nPortland, OR 97201",
         "phone": "(503) 226-7600",
-        "website": "https://www.marriott.com/en-us/hotels/pdxor-portland-marriott-downtown-waterfront/overview/?scid=45f93f1b-bd77-45c9-8dab-83b6a417f6fe&y_source=1_NzQ4MDcxLTQ2Mi1sb2NhdGlvbi53ZWJzaXRl",
+        "website": "https://www.marriott.com",
         "imgfile": "images/marriot.jpg"
       },
       {
@@ -82,7 +82,7 @@
         "address": "4855 Commercial St SE, \nSalem, OR 97302",
         "phone": "(503) 364-4645",
         "website": "http://gamecrazy.com/",
-        "imgfile": "https://images/gamecrazyy.jpg"
+        "imgfile": "images/gamecrazyy.jpg"
       }
     ]
 }

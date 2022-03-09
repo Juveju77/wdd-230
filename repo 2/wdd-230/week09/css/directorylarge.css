@@ -108,10 +108,6 @@
         border: none;
 	}
     
-    button {
-        display: none;
-    }
-
     .menu {display: none;}
 
 	.discover-main {
@@ -130,4 +126,5 @@
         .card-view {
             grid-template-columns: repeat(2, 1fr);
         }
+		
     }
