@@ -279,3 +279,27 @@ footer {
  fieldset{
      background-color: white;
  }
+
+ .thankyou-main {
+    grid-template-columns: 1fr;
+    font-size: xx-large;
+    padding: 1rem;
+    justify-items: center;
+}
+
+.thankyou-main h2 {
+    margin: 1rem;
+}
+
+.thankyou-main p {
+    border: #BF6F7E40 dotted 3px;
+    padding: 1rem;
+    margin-top: .5rem;
+    font-size: medium;
+}
+
+.thankyou-main img {
+    max-width: 400px;
+    float: right;
+    max-height: 400px;
+}
