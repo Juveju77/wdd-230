@@ -189,11 +189,18 @@ footer {
   :hover button{
       color: whitesmoke;
   }
-  h2,h3,h4,h5,h6,h7{
+  h2,h3,h5,h6,h7{
       background-color: #336611;
       font-size: 2em;
       font-family: 'Righteous', cursive;
       text-align: center;
+  }
+
+  h4{
+    background-color: #336611;
+    font-size: 1.2em;
+    font-family: 'Righteous', cursive;
+    text-align: center; 
   }
   p{
       font-family: 'oswald',cursive;

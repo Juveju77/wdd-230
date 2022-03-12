@@ -40,7 +40,7 @@
                 <li><a href="https://juveju77.github.io/wdd-230/repo%202/wdd-230/Week%2007/discover.html"> Discover </a></li>
                 <li><a href="https://juveju77.github.io/wdd-230/repo%202/wdd-230/week09/directory.html"> Directory </a></li>
                 <li><a href="https://juveju77.github.io/wdd-230/repo%202/wdd-230/Week08/join.html"> Join </a></li>
-                <li><a href="#"> Contact </a></li>
+                <li><a href="https://juveju77.github.io/wdd-230/repo%202/wdd-230/Week04/contact.html"> Contact </a></li>
             </ul>
         </nav>
         <section class="date"></section>
@@ -51,7 +51,7 @@
         <section class="hero">
             <h2>Welcome to Portland Oregon</h2>
             <picture class="hero-photo">
-                 <source media="(max-width: 33.9em)" srcset="images/Portland-Oregon.webp">
+                <source media="(max-width: 33.9em)" srcset="images/Portland-Oregon.webp">
                 <source media="(max-width: 829px)" srcset="images/Portland-Oregon.webp">
                 <source media="(max-width: 1400px)" srcset="images/Portland-Oregon.webp">
                 <img src="images/Portland-Oregon.webp" alt="picture of parts of portland oregon">
@@ -69,12 +69,16 @@
             </p>
         </section>
         <section class="weather">
-            <h3> WEATHER </h3>
-            <img src="images/partly.webp" alt="partly cloudy weather image">
-            <h4><span id="temp"> 32 F </span>&#176; </h4>
-            <h5><span> Partly cloudy </span></h5>
-            <p>Wind Speed: <span id="speed"> 15 mph </span></p>
-            <p>Wind Chill: <span id="windchill"></span></p>
+            <div class="localWthr">
+            <img class="wIcon" src="#" alt="">
+            <p class="iconDesc"></p>
+            <p class="deg">The current temperature is <span class="temp"></span>&#176;F</p>
+            <p class="ws">Wind Speed:</p>
+            <p class="windSpeed"></p>
+            <p class="wc">Wind Chill:</p>
+            <p class="wChill"><span class="windChill"></span></p>
+            <hr style="width:90%;text-align:center;">
+        </div>
         </section>
         <section class="join">
             <h7>Hike</h7>
@@ -124,8 +128,8 @@
                 </section>
                 <section class="contact">
                     <p>AdventureisCalling@gmail.com </p>
-                    <p> (781) 503-2838</p>
-                    <p>rexburg,Idaho 555 Broadway st 0213433</p>
+                    <p>(503) 503-2838</p>
+                    <p>Portland,Oregon 555 Broadway st 0213433</p>
                     <p><a href="https://www.google.com/maps/place/Portland,+OR/@45.5423715,-122.9345828,10z/data=!3m1!4b1!4m5!3m4!1s0x54950b0b7da97427:0x1c36b9e6f6d18591!8m2!3d45.515232!4d-122.6783853">location map</a></p>
                 </section>
             </div>
@@ -140,6 +144,7 @@
         </script>
         <script src="js/menu.js"></script>
         <script src="js/windchill.js"></script>
+        <script src="js/weather.js"></script>
     </script>
     </div>
 </body>
