@@ -71,8 +71,6 @@ nav {
 	color: white;
 	transition: 0.2s;
     font-size: 2rem;
-    position: relative;
-    left: -120px;
 }
 
 .navigation a:hover {
