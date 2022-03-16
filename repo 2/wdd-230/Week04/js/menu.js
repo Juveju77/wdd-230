@@ -1,7 +1,7 @@
 const menubutton = document.querySelector('.menu');
 const mainnav = document.querySelector('.navigation');
 const exitbutton = document.querySelector('#xbutton');
-const ham = document.querySelector('#ham');
+const ham = document.querySelector('#hamburger');
 
 menubutton.addEventListener('click', () => {
     mainnav.classList.toggle('responsive');
