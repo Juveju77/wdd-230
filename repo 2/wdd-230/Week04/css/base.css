@@ -188,23 +188,49 @@ footer {
   :hover button{
       color: whitesmoke;
   }
-  h2,h3,h5,h6,h7{
+  h1,h2,h3,h5,h6,h7{
       background-color: #336611;
       font-size: 2em;
       font-family: 'Righteous', cursive;
       text-align: center;
+      color: white;
   }
 
   h4{
     background-color: #336611;
-    font-size: 1.2em;
+    color: white;
+    font-size: 2em;
     font-family: 'Righteous', cursive;
     text-align: center; 
   }
+  
   p{
       font-family: 'oswald',cursive;
       font-size: 1.5em;
+      color: white;
   }
+
+  #textt{
+      color: black;
+  }
+
+#one{
+    color: black;
+    font-family: 'oswald',cursive;
+    font-size: 1.5em;
+  }
+
+#two{
+    color: black;
+    font-family: 'oswald',cursive;
+    font-size: 1.5em; 
+}
+
+#three{
+    color: black;
+    font-family: 'oswald',cursive;
+    font-size: 1.5em;
+}
 
   main section h3 {
     font-weight: bold;
