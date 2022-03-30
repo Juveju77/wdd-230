@@ -1,7 +1,7 @@
 {
     "Temples": [
       {
-        "name": "Boston Temple",
+        "name": "Boston Massachusetts Temple",
         "address": "100 Hinckley Wy \nBelmont MA 02478-2135 United States",
         "phone": "(1) 617-993-9993",
         "email": "BOSTO-OFF@ChurchofJesusChrist.org",
@@ -31,7 +31,7 @@
          "history":"3 April 1997 Announced \n1 May 1998 Groundbreaking \n17 May 2002 Dedicated", 
          "ordinance schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
          "temple closure schedule":"Saturday, 2 April 2022 - Monday, 1 August 2022 \nMonday, 15 August 2022 - Wednesday, 7 September 2022 \n Saturday, 1 October 2022 - Saturday, 24 December 2022 \nSaturday, 31 December 2022 - Sunday, 5 March 2023 \n Sunday, 19 March 2023 - Saturday, 1 April 2023 \nSunday, 2 April 2023 - Thursday, 7 September 2023 \nSaturday, 30 September 2023 - Sunday, 1 October 2023 \nSaturday, 23 December 2023 - Monday, 25 December 2023 \nSaturday, 30 December 2023 - Monday, 1 January 2024",
-        "imgfile": "images/campinas.jpeg"
+        "imgfile": "images/campinas.jpg"
       },
       {
         "name": "Seoul Korea Temple",
@@ -86,7 +86,7 @@
          "history":"4 October 2008 Announced \n8 May 2010 Groundbreaking \n6 May 2012 Dedicated ", 
          "ordinance schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing",
          "temple closure schedule":"Saturday, 2 April 2022 \nMonday, 18 April 2022 - Monday, 25 April 2022 \nTuesday, 21 June 2022 (Limited Operations) \nMonday, 19 September 2022 - Monday, 19 December 2022 \nSaturday, 24 December 2022",
-        "imgfile":"images/kansas_city_temple.jpeg"
+        "imgfile":"images/kansas_city_temple.jpg"
       }
     ]
 }
