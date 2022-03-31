@@ -7,8 +7,8 @@
         "email": "BOSTO-OFF@ChurchofJesusChrist.org",
         "services": "Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
          "history":"30 September 1995 Announced \n13 June 1997 Groundbreaking \n1 October 2000 Dedicated", 
-         "ordinance schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing ", 
-         "temple closure schedule":"Monday, 7 March 2022 - Monday, 16 May 2022",
+         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing ", 
+         "templeClosure":"Monday, 7 March 2022 - Monday, 16 May 2022",
         "imgfile": "images/boston.jpeg"
       },
       {
@@ -18,8 +18,8 @@
         "email": "ATLAN-OFF@ChurchofJesusChrist.org",
         "services": "No Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
          "history":"2 April 1980 Announced \n7 March 1981 Groundbreaking \n1 June 1983 Dedicated \n14 November 1997 Rededicated \n1 May 2011 Rededicated", 
-         "ordinance schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing ", 
-         "temple closure schedule":"Monday, 28 March 2022 - Monday, 11 April 2022 \nSaturday, 30 April 2022 - Monday, 26 September 2022 \nMonday, 10 October 2022",
+         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing ", 
+         "templeClosure":"Monday, 28 March 2022 - Monday, 11 April 2022 \nSaturday, 30 April 2022 - Monday, 26 September 2022 \nMonday, 10 October 2022",
         "imgfile": "images/atlanta.jpeg"
       },
       {
@@ -29,8 +29,8 @@
         "email": "CAMPI-OFF@ChurchofJesusChrist.org",
         "services":"Clothing rental available \nCafeteria available \nPatron housing available \nDistribution center nearby",
          "history":"3 April 1997 Announced \n1 May 1998 Groundbreaking \n17 May 2002 Dedicated", 
-         "ordinance schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
-         "temple closure schedule":"Saturday, 2 April 2022 - Monday, 1 August 2022 \nMonday, 15 August 2022 - Wednesday, 7 September 2022 \n Saturday, 1 October 2022 - Saturday, 24 December 2022 \nSaturday, 31 December 2022 - Sunday, 5 March 2023 \n Sunday, 19 March 2023 - Saturday, 1 April 2023 \nSunday, 2 April 2023 - Thursday, 7 September 2023 \nSaturday, 30 September 2023 - Sunday, 1 October 2023 \nSaturday, 23 December 2023 - Monday, 25 December 2023 \nSaturday, 30 December 2023 - Monday, 1 January 2024",
+         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
+         "templeClosure":"Saturday, 2 April 2022 - Monday, 1 August 2022 \nMonday, 15 August 2022 - Wednesday, 7 September 2022 \n Saturday, 1 October 2022 - Saturday, 24 December 2022 \nSaturday, 31 December 2022 - Sunday, 5 March 2023 \n Sunday, 19 March 2023 - Saturday, 1 April 2023 \nSunday, 2 April 2023 - Thursday, 7 September 2023 \nSaturday, 30 September 2023 - Sunday, 1 October 2023 \nSaturday, 23 December 2023 - Monday, 25 December 2023 \nSaturday, 30 December 2023 - Monday, 1 January 2024",
         "imgfile": "images/campinas.jpg"
       },
       {
@@ -40,8 +40,8 @@
         "email": "info@seoulkoreatemple.church",
         "services":"Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
          "history":"7 April 1981 Announced \n9 May 1983 Groundbreaking \n14 December 1985 Dedicated" , 
-         "ordinance schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
-         "temple closure schedule":"Monday, 4 April 2022 - Monday, 18 April 2022 \nSaturday, 10 September 2022 - Monday, 3 October 2022 \nMonday, 17 October 2022 - Sunday, 25 December 2022",
+         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
+         "templeClosure":"Monday, 4 April 2022 - Monday, 18 April 2022 \nSaturday, 10 September 2022 - Monday, 3 October 2022 \nMonday, 17 October 2022 - Sunday, 25 December 2022",
         "imgfile": "images/seoulkorea.jpeg"
       },
       {
@@ -51,8 +51,8 @@
         "email": "PORTL-OFF@ChurchofJesusChrist.org",
         "services":"Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
          "history":"7 April 1984 Announced \n20 September 1986 Groundbreaking \n19 August 1989 Dedicated", 
-         "ordinance schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
-         "temple closure schedule":"Saturday, 2 April 2022 - Monday, 4 July 2022 \nMonday, 18 July 2022 - Monday, 15 August 2022 \nSaturday, 1 October 2022 - Wednesday, 23 November 2022 \nThursday, 24 November 2022 - Saturday, 24 December 2022 \nSunday, 25 December 2022 - Saturday, 31 December 2022",
+         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
+         "templeClosure":"Saturday, 2 April 2022 - Monday, 4 July 2022 \nMonday, 18 July 2022 - Monday, 15 August 2022 \nSaturday, 1 October 2022 - Wednesday, 23 November 2022 \nThursday, 24 November 2022 - Saturday, 24 December 2022 \nSunday, 25 December 2022 - Saturday, 31 December 2022",
         "imgfile": "images/portland_oregon.jpeg"
       },
       {
@@ -62,8 +62,8 @@
         "email": "info@orlandofloridatemple.church",
         "services":"Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
          "history":"6 April 1991 Announced \n20 June 1992 Groundbreaking \n9 October 1994 Dedicated", 
-         "ordinance schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
-         "temple closure schedule":"Saturday, 2 April 2022 - Monday, 15 August 2022 \nMonday, 12 December 2022 - Saturday, 24 December 2022 \nSaturday, 31 December 2022",
+         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
+         "templeClosure":"Saturday, 2 April 2022 - Monday, 15 August 2022 \nMonday, 12 December 2022 - Saturday, 24 December 2022 \nSaturday, 31 December 2022",
         "imgfile": "images/orlando_florida.jpeg"
       },
       {
@@ -73,8 +73,8 @@
         "email": "LOGAN-OFF@ChurchofJesusChrist.org",
         "services":"Clothing rental available \nNo cafeteria available \nNo patron housing available \nNo distribution center nearby",
          "history":"6 October 1876 Announced \n18 May 1877 Groundbreaking \n17 May 1884 Dedicated \n13 March 1979 Rededicated", 
-         "ordinance schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
-         "temple closure schedule":"Saturday, 2 April 2022 - Saturday, 1 October 2022 \nMonday, 3 October 2022 - Monday, 17 October 2022 \nWednesday, 23 November 2022 - Thursday, 24 November 2022 \nSaturday, 24 December 2022 - Saturday, 31 December 2022",
+         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
+         "templeClosure":"Saturday, 2 April 2022 - Saturday, 1 October 2022 \nMonday, 3 October 2022 - Monday, 17 October 2022 \nWednesday, 23 November 2022 - Thursday, 24 November 2022 \nSaturday, 24 December 2022 - Saturday, 31 December 2022",
         "imgfile": "images/logan_temple.jpeg"
       },
       {
@@ -84,8 +84,8 @@
         "email": "KANSA-OFF@ChurchofJesusChrist.org",
         "services": "Clothing rental available \nNo cafeteria available \nNo patron housing available \nNo distribution center nearby",
          "history":"4 October 2008 Announced \n8 May 2010 Groundbreaking \n6 May 2012 Dedicated ", 
-         "ordinance schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing",
-         "temple closure schedule":"Saturday, 2 April 2022 \nMonday, 18 April 2022 - Monday, 25 April 2022 \nTuesday, 21 June 2022 (Limited Operations) \nMonday, 19 September 2022 - Monday, 19 December 2022 \nSaturday, 24 December 2022",
+         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing",
+         "templeClosure":"Saturday, 2 April 2022 \nMonday, 18 April 2022 - Monday, 25 April 2022 \nTuesday, 21 June 2022 (Limited Operations) \nMonday, 19 September 2022 - Monday, 19 December 2022 \nSaturday, 24 December 2022",
         "imgfile":"images/kansas_city_temple.jpg"
       }
     ]
