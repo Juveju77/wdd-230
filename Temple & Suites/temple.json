@@ -1,92 +1,100 @@
 {
     "Temples": [
       {
-        "name": "Boston Massachusetts Temple",
-        "address": "100 Hinckley Wy \nBelmont MA 02478-2135 United States",
-        "phone": "(1) 617-993-9993",
-        "email": "BOSTO-OFF@ChurchofJesusChrist.org",
-        "services": "Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
-         "history":"30 September 1995 Announced \n13 June 1997 Groundbreaking \n1 October 2000 Dedicated", 
-         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing ", 
-         "templeClosure":"Monday, 7 March 2022 - Monday, 16 May 2022",
-        "imgfile": "images/boston.jpeg"
+        "location": "Boston Massachusetts Temple",
+        "image": "images/boston.jpeg",
+        "Address": "100 Hinckley Wy \nBelmont MA 02478-2135 United States",
+        "Telephone": "(1) 617-993-9993",
+        "Email": "BOSTO-OFF@ChurchofJesusChrist.org",
+        "Services": "Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
+         "History":"30 September 1995 Announced \n13 June 1997 Groundbreaking \n1 October 2000 Dedicated", 
+         "Schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing ", 
+         "Closed":"Monday, 7 March 2022 - Monday, 16 May 2022"
+        
       },
       {
-        "name": "Atlanta Georgia Temple",
-        "address": "6450 Barfield Rd NE \nSandy Springs GA 30328-4283 United States",
-        "phone": "(1) 770-393-3698",
-        "email": "ATLAN-OFF@ChurchofJesusChrist.org",
-        "services": "No Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
-         "history":"2 April 1980 Announced \n7 March 1981 Groundbreaking \n1 June 1983 Dedicated \n14 November 1997 Rededicated \n1 May 2011 Rededicated", 
-         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing ", 
-         "templeClosure":"Monday, 28 March 2022 - Monday, 11 April 2022 \nSaturday, 30 April 2022 - Monday, 26 September 2022 \nMonday, 10 October 2022",
-        "imgfile": "images/atlanta.jpeg"
+        "location": "Atlanta Georgia Temple",
+        "image": "images/atlanta.jpeg",
+        "Address": "6450 Barfield Rd NE \nSandy Springs GA 30328-4283 United States",
+        "Telephone": "(1) 770-393-3698",
+        "Email": "ATLAN-OFF@ChurchofJesusChrist.org",
+        "Services": "No Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
+         "History":"2 April 1980 Announced \n7 March 1981 Groundbreaking \n1 June 1983 Dedicated \n14 November 1997 Rededicated \n1 May 2011 Rededicated", 
+         "Schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing ", 
+         "Closed":"Monday, 28 March 2022 - Monday, 11 April 2022 \nSaturday, 30 April 2022 - Monday, 26 September 2022 \nMonday, 10 October 2022"
+        
       },
       {
-        "name": "Campinas Sao Paulo Temple",
-        "address": "Rua James Esdras Faust, 400 \nBarrio Notre Dame \nCEP 13092-820 Campinas - SP Brazil",
-        "phone": "(55) 19-2102-5800",
-        "email": "CAMPI-OFF@ChurchofJesusChrist.org",
-        "services":"Clothing rental available \nCafeteria available \nPatron housing available \nDistribution center nearby",
-         "history":"3 April 1997 Announced \n1 May 1998 Groundbreaking \n17 May 2002 Dedicated", 
-         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
-         "templeClosure":"Saturday, 2 April 2022 - Monday, 1 August 2022 \nMonday, 15 August 2022 - Wednesday, 7 September 2022 \n Saturday, 1 October 2022 - Saturday, 24 December 2022 \nSaturday, 31 December 2022 - Sunday, 5 March 2023 \n Sunday, 19 March 2023 - Saturday, 1 April 2023 \nSunday, 2 April 2023 - Thursday, 7 September 2023 \nSaturday, 30 September 2023 - Sunday, 1 October 2023 \nSaturday, 23 December 2023 - Monday, 25 December 2023 \nSaturday, 30 December 2023 - Monday, 1 January 2024",
-        "imgfile": "images/campinas.jpg"
+        "location": "Campinas Sao Paulo Temple",
+        "image": "images/campinas.jpg",
+        "Address": "Rua James Esdras Faust, 400 \nBarrio Notre Dame \nCEP 13092-820 Campinas - SP Brazil",
+        "Telephone": "(55) 19-2102-5800",
+        "Email": "CAMPI-OFF@ChurchofJesusChrist.org",
+        "Services":"Clothing rental available \nCafeteria available \nPatron housing available \nDistribution center nearby",
+         "History":"3 April 1997 Announced \n1 May 1998 Groundbreaking \n17 May 2002 Dedicated", 
+         "Schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
+         "Closed":"Saturday, 2 April 2022 - Monday, 1 August 2022 \nMonday, 15 August 2022 - Wednesday, 7 September 2022 \n Saturday, 1 October 2022 - Saturday, 24 December 2022 \nSaturday, 31 December 2022 - Sunday, 5 March 2023 \n Sunday, 19 March 2023 - Saturday, 1 April 2023 \nSunday, 2 April 2023 - Thursday, 7 September 2023 \nSaturday, 30 September 2023 - Sunday, 1 October 2023 \nSaturday, 23 December 2023 - Monday, 25 December 2023 \nSaturday, 30 December 2023 - Monday, 1 January 2024"
+        
       },
       {
-        "name": "Seoul Korea Temple",
-        "address": "Sinchon-ro 7 GIL 21 \nSeodaemun-gu, Seoul Seoul-teukbyeolsi 03783, South Korea",
-        "phone": "(82) 2-330-2700",
-        "email": "info@seoulkoreatemple.church",
-        "services":"Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
-         "history":"7 April 1981 Announced \n9 May 1983 Groundbreaking \n14 December 1985 Dedicated" , 
-         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
-         "templeClosure":"Monday, 4 April 2022 - Monday, 18 April 2022 \nSaturday, 10 September 2022 - Monday, 3 October 2022 \nMonday, 17 October 2022 - Sunday, 25 December 2022",
-        "imgfile": "images/seoulkorea.jpeg"
+        "location": "Seoul Korea Temple",
+        "image": "images/seoulkorea.jpeg",
+        "Address": "Sinchon-ro 7 GIL 21 \nSeodaemun-gu, Seoul Seoul-teukbyeolsi 03783, South Korea",
+        "Telephone": "(82) 2-330-2700",
+        "Email": "info@seoulkoreatemple.church",
+        "Services":"Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
+         "History":"7 April 1981 Announced \n9 May 1983 Groundbreaking \n14 December 1985 Dedicated" , 
+         "Schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
+         "Closed":"Monday, 4 April 2022 - Monday, 18 April 2022 \nSaturday, 10 September 2022 - Monday, 3 October 2022 \nMonday, 17 October 2022 - Sunday, 25 December 2022"
+        
       },
       {
-        "name": "Portland Oregon Temple",
-        "address": "13600 Kruse Oaks Blvd \nLake Oswego OR 97035-8602 United States",
-        "phone": "(1) 503-639-7066",
-        "email": "PORTL-OFF@ChurchofJesusChrist.org",
-        "services":"Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
-         "history":"7 April 1984 Announced \n20 September 1986 Groundbreaking \n19 August 1989 Dedicated", 
-         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
-         "templeClosure":"Saturday, 2 April 2022 - Monday, 4 July 2022 \nMonday, 18 July 2022 - Monday, 15 August 2022 \nSaturday, 1 October 2022 - Wednesday, 23 November 2022 \nThursday, 24 November 2022 - Saturday, 24 December 2022 \nSunday, 25 December 2022 - Saturday, 31 December 2022",
-        "imgfile": "images/portland_oregon.jpeg"
+        "location": "Portland Oregon Temple",
+        "image": "images/portland_oregon.jpeg",
+        "Address": "13600 Kruse Oaks Blvd \nLake Oswego OR 97035-8602 United States",
+        "Telephone": "(1) 503-639-7066",
+        "Email": "PORTL-OFF@ChurchofJesusChrist.org",
+        "Services":"Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
+         "History":"7 April 1984 Announced \n20 September 1986 Groundbreaking \n19 August 1989 Dedicated", 
+         "Schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
+         "Closed":"Saturday, 2 April 2022 - Monday, 4 July 2022 \nMonday, 18 July 2022 - Monday, 15 August 2022 \nSaturday, 1 October 2022 - Wednesday, 23 November 2022 \nThursday, 24 November 2022 - Saturday, 24 December 2022 \nSunday, 25 December 2022 - Saturday, 31 December 2022"
+        
       },
       {
-        "name": "Orlando Florida Temple",
-        "address": "9000 Windy Ridge Rd \nWindermere FL 34786-8347 United States",
-        "phone": "(1) 407-876-0022",
-        "email": "info@orlandofloridatemple.church",
-        "services":"Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
-         "history":"6 April 1991 Announced \n20 June 1992 Groundbreaking \n9 October 1994 Dedicated", 
-         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
-         "templeClosure":"Saturday, 2 April 2022 - Monday, 15 August 2022 \nMonday, 12 December 2022 - Saturday, 24 December 2022 \nSaturday, 31 December 2022",
-        "imgfile": "images/orlando_florida.jpeg"
+        "location": "Orlando Florida Temple",
+        "image": "images/orlando_florida.jpeg",
+        "Address": "9000 Windy Ridge Rd \nWindermere FL 34786-8347 United States",
+        "Telephone": "(1) 407-876-0022",
+        "Email": "info@orlandofloridatemple.church",
+        "Services":"Clothing rental available \nNo cafeteria available \nNo patron housing available \ndistribution center nearby",
+         "History":"6 April 1991 Announced \n20 June 1992 Groundbreaking \n9 October 1994 Dedicated", 
+         "Schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
+         "Closed":"Saturday, 2 April 2022 - Monday, 15 August 2022 \nMonday, 12 December 2022 - Saturday, 24 December 2022 \nSaturday, 31 December 2022"
+        
       },
       {
-        "name": " Logan Utah Temple",
-        "address": "175 N 300 E \nLogan UT 84321-4720 United States",
-        "phone": "(1) 435-752-3611",
-        "email": "LOGAN-OFF@ChurchofJesusChrist.org",
-        "services":"Clothing rental available \nNo cafeteria available \nNo patron housing available \nNo distribution center nearby",
-         "history":"6 October 1876 Announced \n18 May 1877 Groundbreaking \n17 May 1884 Dedicated \n13 March 1979 Rededicated", 
-         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
-         "templeClosure":"Saturday, 2 April 2022 - Saturday, 1 October 2022 \nMonday, 3 October 2022 - Monday, 17 October 2022 \nWednesday, 23 November 2022 - Thursday, 24 November 2022 \nSaturday, 24 December 2022 - Saturday, 31 December 2022",
-        "imgfile": "images/logan_temple.jpeg"
+        "location": " Logan Utah Temple",
+        "image": "images/logan_temple.jpeg",
+        "Address": "175 N 300 E \nLogan UT 84321-4720 United States",
+        "Telephone": "(1) 435-752-3611",
+        "Email": "LOGAN-OFF@ChurchofJesusChrist.org",
+        "Services":"Clothing rental available \nNo cafeteria available \nNo patron housing available \nNo distribution center nearby",
+         "History":"6 October 1876 Announced \n18 May 1877 Groundbreaking \n17 May 1884 Dedicated \n13 March 1979 Rededicated", 
+         "Schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing", 
+         "Closed":"Saturday, 2 April 2022 - Saturday, 1 October 2022 \nMonday, 3 October 2022 - Monday, 17 October 2022 \nWednesday, 23 November 2022 - Thursday, 24 November 2022 \nSaturday, 24 December 2022 - Saturday, 31 December 2022"
+        
       },
       {
-        "name": "Kansas City Missouri Temple",
-        "address": "7001 Searcy Creek Pkwy \nKansas City MO 64119-5336 United States",
-        "phone": "(1) 816-413-1430",
-        "email": "KANSA-OFF@ChurchofJesusChrist.org",
-        "services": "Clothing rental available \nNo cafeteria available \nNo patron housing available \nNo distribution center nearby",
-         "history":"4 October 2008 Announced \n8 May 2010 Groundbreaking \n6 May 2012 Dedicated ", 
-         "ordinances":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing",
-         "templeClosure":"Saturday, 2 April 2022 \nMonday, 18 April 2022 - Monday, 25 April 2022 \nTuesday, 21 June 2022 (Limited Operations) \nMonday, 19 September 2022 - Monday, 19 December 2022 \nSaturday, 24 December 2022",
-        "imgfile":"images/kansas_city_temple.jpg"
+        "location": "Kansas City Missouri Temple",
+        "image":"images/kansas_city_temple.jpg",
+        "Address": "7001 Searcy Creek Pkwy \nKansas City MO 64119-5336 United States",
+        "Telephone": "(1) 816-413-1430",
+        "Email": "KANSA-OFF@ChurchofJesusChrist.org",
+        "Services": "Clothing rental available \nNo cafeteria available \nNo patron housing available \nNo distribution center nearby",
+         "History":"4 October 2008 Announced \n8 May 2010 Groundbreaking \n6 May 2012 Dedicated ", 
+         "Schedule":"Proxy Baptism \nProxy Initiatory \nProxy Endowment \nProxy Sealing",
+         "Closed":"Saturday, 2 April 2022 \nMonday, 18 April 2022 - Monday, 25 April 2022 \nTuesday, 21 June 2022 (Limited Operations) \nMonday, 19 September 2022 - Monday, 19 December 2022 \nSaturday, 24 December 2022"
+        
       }
     ]
 }
