@@ -1,0 +1,329 @@
+/* small view Temples page css */
+/* fonts for this site:
+Headings: font-family: 'Oswald', sans-serif;
+Paragraphs: font-family: 'Roboto', sans-serif; */
+@media (max-width: 600px) {
+    h2#headingtemples{
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        background-color: #ffffe3;
+        margin: 10px 15px 5px 5px;
+        font-size: 15px;
+        color: navy;
+        border: solid #818783 3px;
+    }
+    body {
+      background-color: white;
+    }
+    img#logo{
+        border-radius: none;
+        box-shadow: none;
+    }
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+      }
+      .img {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      }
+    
+    h3,h4,h5,h6{
+        font-family: 'Oswald', sans-serif;
+        font-size: smaller;
+    }
+    section{
+        font-family: 'Roboto', sans-serif;
+        margin: 12px 20px 5px 5px;
+        display: grid;
+        grid-column: 2/3;
+        border: solid 3px #818783;
+        border-radius: 20px;
+        height: auto;
+        background-color: navy;
+        color: #283959;
+        padding: 60px 60px;
+    }
+    .cardsection {
+      float: left;
+      margin: 0.25rem;
+      border: none;
+      align-items: center;
+      }
+    img{
+        border-radius: 20px;
+        width: auto;
+        max-width: 200px;
+    }
+    
+    footer {
+        border-top: 1px solid #555;
+        padding: 20px;
+    }
+
+}
+        /* Medium view */
+@media (min-width: 601px) and (max-width: 992px) {
+    h1.home{
+        font-family: 'Oswald', sans-serif;
+    }
+    h2#headingtemples{
+        font-family: 'cinzel', sans-serif;
+        font-style: italic;
+        background-color: navy;
+        margin: 10px 15px 5px 5px;
+        
+        font-size: 20px;
+        color: #546089;
+        border: solid #818783 3px;
+    }
+body {
+    background-color: white;
+    }
+    .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    
+div.cardsection {
+    display: grid;
+    border-radius: 1px 1px;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: auto;
+}
+section {
+    font-family: 'Roboto', sans-serif;
+    border: solid 3px #818783;
+    border-radius: 20px;
+    grid-row: 1fr;
+    height: auto;
+    background-color: rgba(84, 96, 137, .5);
+    color: #283959;
+    padding: 60px 60px;
+}
+.cardsection {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin: 0.25rem;
+    border: none;
+    align-items: center;
+    }
+    img{
+    border-radius: 20px;
+    max-width: 300px;
+    } 
+    
+    footer {
+        font-family: 'Oswald', sans-serif;    
+        border-top: 1px solid #555;
+        padding: 20px;
+    }
+}
+      /* large View  */
+@media (min-width: 992px){ 
+    body{
+        background-color:white;
+        display: grid;
+        margin: 5px;
+        
+    }
+    *{  justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+        /* margin: auto;  */
+    }
+    header#grid{
+        font-family: 'cinzel', sans-serif;
+        max-width: 100%;
+        grid-column: 1/6;
+        grid-row: 1/2;
+        margin:  0 -5px;
+    }
+    
+    aside#aside {
+        color: #283959;
+        grid-column: 1/5;
+        grid-row:2/3;
+        max-width: 100%;
+        margin: auto;
+        border: 1px solid #283959;
+        background-color: #ffffe3;
+        text-align: center;
+        padding: 1px;
+    }
+    #logo {
+        grid-row: 1/2;
+        grid-column: 2/3;  
+    }
+    div#innheading{
+        display: flex;
+        margin-top: 30px;
+    }
+    img#logo{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: auto;
+        border-radius: 15px;
+        padding: 0 10px;
+        max-height: 130px;
+        margin-top: -30px;
+        border: none;
+        
+    }
+    h1.home{
+        justify-content: center;
+        text-align: center;
+        font-size: 55px;
+        padding: 10px;
+    }
+    .headline{   
+        margin: 0 50px;
+    }
+    #wrapper#heading a{
+        display: flex;
+        font-size: 50px;
+        margin-left: 70px;
+    }
+    #heading a{
+        display: flex;
+        flex-direction: row;
+        width: 30px;
+        height: 30px;
+    }
+    div.facebooklinkedin{    
+        grid-column: 4/5;
+        grid-row: 1/2;
+        position: relative;
+        min-width: 44px;
+        margin-left: 3%;
+    }
+    a#background, a#layer1{ 
+        width: 44px;
+    }
+    button#buttonhome{
+        margin: 0;
+        width: 44px;
+        height: 44px; 
+    }
+    button#hamburgerhome{
+        display: none;
+        grid-row: 1/2;
+        border: solid #818783;
+        background-color: navy;
+        color: yellow;
+        font-size: 10px;
+        border-radius: 5px;
+        padding: 1px;
+        width: 35px;
+        max-height: 35px;
+    }
+    nav ul {
+        font-size: 1.9em;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li a{
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: navy;
+       
+    }
+    li a{
+        font-size: 30px;
+    }
+    nav ul li.active a{
+        background-color: navy;
+        color: yellow;
+    }
+    nav ul li a:hover{
+        background-color: navy;
+        color: yellow;
+    }
+
+    nav#menu{
+        background-color: yellow;
+    }
+    nav#navmenu{
+        grid-column: 1/4;
+        grid-row: 2/3;
+        background-color: navy;
+        color: yellow;
+    }
+    ul#primarynav.navmenu{
+        display: inline-flex;
+        padding: 0;
+    }  
+    h2#headingtemples{
+        font-family: 'Roboto', sans-serif;
+        background-color: #ffffe3;
+        margin: 10px 35px 5px 35px;
+        font-style: italic;
+        font-size: 23px;
+        padding: 15px;
+        color: #546089;
+        border: solid #818783 3px;
+    }
+
+  body#temple{
+    background-color: white;
+    margin: auto;
+  }
+
+  nav a :hover {
+    color: yellow;
+    background-color: navy;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    .img {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+  div.cardsection{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+  }
+  section{
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        border: solid 3px #818783;
+        border-radius: 20px;
+        min-width: 30%;
+        height: auto;
+        margin: 3%;
+        background-color: rgba(84, 96, 137, .5);
+        color:#283959;
+        padding: 60px 60px;
+    }
+  .cardsection {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        margin: 0;
+        border: none;
+        align-items: center;
+    }
+  
+  img{
+        border-radius: 20px;
+        margin: 10px;
+        width: auto;
+        max-width: 300px;
+        box-shadow: 0 0 30px #777;
+    } 
+
+    footer {
+        font-family: 'Oswald', sans-serif;
+        border-top: 1px solid #555;
+        padding: 20px;
+    }
+}

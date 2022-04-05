@@ -1,0 +1,309 @@
+/* On screens that are 992px or more, set the background color to pink */
+/* fonts for this site:
+Headings:  font-family: 'Oswald', sans-serif;
+Paragraphs:  font-family: 'Roboto', sans-serif; */
+@media (min-width: 992px){
+    body{
+        background-color:yellow;
+        display: grid;
+        margin: 5px;
+        
+    }
+    *{  justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+        /* margin: auto;  */
+    }
+    header#grid{
+        background-color: navy;
+        color: yellow;
+        max-width: 100%;
+        grid-column: 1/6;
+        grid-row: 1/2;
+        margin:  0 -5px;
+    }
+    
+    aside#aside {
+        color: #283959;
+        grid-column: 1/5;
+        grid-row:2/3;
+        max-width: 100%;
+        margin: auto;
+        border: 1px solid #283959;
+        background-color: white;
+        text-align: center;
+        padding: 1px;
+    }
+    #logo {
+        grid-row: 1/2;
+        grid-column: 2/3;  
+    }
+    div#innheading{
+        display: flex;
+        margin-top: 30px;
+    }
+    img#logo{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: auto;
+        border-radius: 15px;
+        box-shadow: gray;
+        padding: 0 10px;
+        max-height: 130px;
+        margin-top: -30px;
+        border: none;
+        
+    }
+    h1.home{
+        justify-content: center;
+        text-align: center;
+        font-size: 55px;
+        padding: 10px;
+    }
+    .headline{   
+        margin: 0 50px;
+    }
+    #wrapper#heading a{
+        display: flex;
+        font-size: 50px;
+        margin-left: 70px;
+    }
+    #heading a{
+        display: flex;
+        flex-direction: row;
+        width: 30px;
+        height: 30px;
+    }
+    div.facebooklinkedin{    
+        grid-column: 4/5;
+        grid-row: 1/2;
+        position: relative;
+        min-width: 44px;
+        margin-left: 3%;
+    }
+    a#background, a#layer1{ 
+        width: 44px;
+    }
+    button#buttonhome{
+        margin: 0;
+        width: 44px;
+        height: 44px; 
+    }
+    button#hamburgerhome{
+        display: none;
+        grid-row: 1/2;
+        border: solid #818783;
+        background-color: navy;
+        color: yellow;
+        font-size: 10px;
+        border-radius: 5px;
+        padding: 1px;
+        width: 35px;
+        max-height: 35px;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li a{
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: navy; 
+    }
+    h1, h2, h3, h4, h5, h6{
+        font-family: 'Cinzel', serif;
+    }
+    p{
+        font-family: 'Rightoues', cursive;
+        font-style: italic;
+        font-weight: 800;
+        /* color: #546089; */
+    }
+    li a{
+        font-size: 30px;
+    }
+
+    }
+    nav ul li{
+        color: navy;
+    }
+    
+    nav ul {display: inline-flex;} 
+    nav ul.open {display: inline-flex;} 
+    #hamburgerhome span:nth-child(1){display: inline-flex;}
+    #hamburgerhome span:nth-child(2){display: inline-flex;}
+    
+    #hamburgerhome.open span:nth-child(1){display: inline-flex;}
+    #hamburgerhome.open span:nth-child(2){display: inline-flex;}
+
+    nav#menu{
+        font-family: 'Oswald', sans-serif;
+        background-color: yellow;
+    }
+    nav#navmenu{
+        grid-column: 1/4;
+        grid-row: 2/3;
+        background-color: navy;
+    }
+    ul#primarynav.navmenu{
+        display: inline-flex;
+        padding: 0;
+    }
+    nav li{
+        
+        margin: 5px;
+        text-decoration: none;
+    }
+    ul li.navitem{
+        padding: 5px;
+        justify-content: center;
+        text-align: center;
+        display: inline-flex;
+    }
+    nav a :hover{
+        color: yellow;
+        background-color: navy;
+    }
+
+    main{
+        background-color: yellow;
+    }
+
+    h2.weddingheader{
+        grid-column: 1/5;
+        grid-row: 2/3;
+        font-size: 28px;
+        color: navy;
+    }
+    div.row2{
+        display: grid;
+        grid-template-columns: 20% 10% 20% 20% 10% 20%;
+        grid-row: auto;
+        border-radius: 20px 20px 20px 20px;
+    }
+    button.calltoaction{
+        background-color: navy;
+        border-radius: 8px;
+        border: gray;
+        padding: 8px;
+        max-height: 30px;
+        position: relative;
+    }
+
+    main{
+    display: grid;
+}
+
+main section {
+    background-color: #808080;
+}
+    
+    div#flexwrap{
+        grid-column: 2/6;
+    }
+    section.weather{
+        grid-column: 2/3;
+        grid-row: 5/6;
+        border: solid 3px #283959;
+        border-radius: 20px;
+        margin-top: 15px;
+        margin-left: -30px;
+        margin-bottom: 10px;
+        padding: 5px;
+        background-color: navy;
+        color:yellow;
+    }
+    section.weatherdetails1{
+        grid-column: 3/4;
+        grid-row: 5/6;
+        border: solid 3px #283959;
+        border-radius: 20px;
+        margin-top: 15px;
+        min-width: 180px;
+        min-height: 160px;
+        background-color: navy;
+        color:yellow;
+    }
+    section.weatherdetails2{
+        border: solid 3px #283959;
+        border-radius: 20px;
+        margin-top: 15px;
+        min-width: 170px;
+        min-height: 160px;
+        grid-column: 4/5;
+        grid-row: 5/6;
+        background-color: navy;
+        color:yellow;
+    }
+    section.weatherdetails3{
+        justify-content: center;
+        text-align: center;
+        grid-column: 5/6;
+        grid-row: 5/6;
+        border: solid 3px #283959;
+        border-radius: 20px;
+        margin-top: 15px;
+        min-width: 170px;
+        min-height: 160px;
+        background-color: navy;
+        color: yellow;
+    }
+
+    section.weatherdetails4{
+        grid-column: 4/4;
+        grid-row: 4/5;
+        border: solid 3px #283959;
+        border-radius: 20px;
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding: 5px;
+        background-color: navy;
+        color:yellow;
+    }
+
+    section.weatherdetails5{
+        grid-column: 3/3;
+        grid-row: 4/5;
+        border: solid 3px #283959;
+        border-radius: 20px;
+        margin-top: 15px;
+        margin-left: -30px;
+        margin-bottom: 10px;
+        padding: 5px;
+        background-color: navy;
+        color:yellow;
+    }
+    button#generate{
+        background-color: navy;
+        color: yellow;
+        border-radius: 3px;
+        padding: 1px;
+    }
+    /* button#movecurrentdayanddate{
+            background-color: #bfa68f;
+            color: #283959;
+            border-radius: 3px;
+            padding: 1px;
+    } */
+    button#collapseweather{
+        background-color: navy;
+        color: yellow;
+        border-radius: 3px;
+        padding: 1px;
+    }
+    footer{
+        font-size: 2em;
+        grid-column: 1/6;
+        grid-row: 9/10;
+        font-family: 'Cinzel', serif;
+        color: yellow;
+        background-color: navy;
+        border: 1px solid yellow;
+        padding: 20px;
+        margin: 0 0 0 0;
+    }  
+
+
