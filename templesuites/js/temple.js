@@ -69,7 +69,7 @@ function favclicked()
 /*json information for temples page*/ 
 if( document.querySelector("#cardsection") )
 {
-  const response = await fetch("templesuites/data/temple.json");
+  const response = await fetch("templesuites/data/temples.json");
   let temples = await response.json();
   temples['temples'].forEach(displaytemplesinfo);
 }
