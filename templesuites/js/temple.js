@@ -1,4 +1,4 @@
-/*indextemple.html hamburgerhome button*/ 
+/*inn.html hamburgerhome button*/ 
 function toggleMenu(){
     let pnav = document.getElementById("primarynav");
     let hamhome = document.getElementById("hamburgerhome");
@@ -67,24 +67,28 @@ function favclicked()
 }
 
 /*json information for temples page*/ 
-if( document.querySelector("#cardsection") )
-{
-  const response = await fetch("templesuites/data/temples.json");
-  let temples = await response.json();
-  temples['temples'].forEach(displaytemplesinfo);
-}
-//fetch(requestURL)
-//  .then(function (response) {
-//    return response.json();
-//  })
-//  .then(function (jsonObject) {
-//    console.table(jsonObject);  // temporary checking for valid response and data parsing
-//    const temples = jsonObject['templesinfo'];
-//    temples.forEach(displaytemples)
-//  });
+
+// if( document.querySelector("#cardsection") )
+//{
+ // const response = await fetch("https://juveju77.github.io/wdd-230/templesuites/js/data/temples.json");
+ // let temples = await response.json();{
+ // temples['temples'].forEach(displaytemplesinfo);
+// }
+fetch("https://juveju77.github.io/wdd-230/templesuites/js/data/temples.json")
+  .then(function (response) {
+    return response.json();
+  })
+ .then(function (jsonObject) {
+   console.table(jsonObject);  // temporary checking for valid response and data parsing
+   const temples = jsonObject.Temples;
+   //temples.forEach(displaytemples)
+   for(let i = 0; i < temples.length; i++){
+     displaytemplesinfo(temples[i]);
+     
+   }
+ });
 
   function displaytemplesinfo(temple){
-    {
         // Create elements to add to the document
         let card = document.createElement('section');
         card.setAttribute('class','grid');
@@ -98,7 +102,7 @@ if( document.querySelector("#cardsection") )
         let h5 = document.createElement('h5');
         let h6 = document.createElement('h6');
         let schedule = document.createElement('h6');
-        let closed = document.createElement('h6')
+        let closed = document.createElement('h6');
         let order = '';
         
       
@@ -157,4 +161,4 @@ if( document.querySelector("#cardsection") )
         // Add/append the existing HTML div with the cards class with the section(card)
         cards.appendChild(card);
       }
-  }
+  
