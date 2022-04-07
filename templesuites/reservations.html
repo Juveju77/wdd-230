@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="csst/smalltemple.css">
     <link rel="stylesheet" href="css/mediumtemple.css">
@@ -74,13 +74,15 @@
                          <span class="bar">X</span>
                     </button>
                     <ul id="primarynav" class="navmenu">
+                        <div class="openMenu">
+                            <ul class="mainMenu"></ul>
                         <li class="">
                             <a href="inn.html" class="navlink"><strong>Home</strong></a>
                         </li>
                         <li class="">
                             <a href="temples.html" class="navlink"><strong>Temples</strong></a>
                         </li>
-                        <li class="active">
+                        
                             <a href="reservations.html" class="navlink"><strong>Reservations</strong></a>
                         </li>
                         <li class="">
@@ -88,6 +90,7 @@
                         </li>
                     </ul>
                 </nav>
+                <div class="closeMenu"></div>
             </div>
             <aside id="aside"><span>date:</span></aside>
         </header>
@@ -182,8 +185,14 @@
             <h4 id="baseline"><span>&copy; Juvenato Mendes-Neto | WDD230 | BYUI-Final Project</span></h4>
             <h6>Temple Inn & Suites: 4800 Montgomery Ln #300, Bethesda, MD 20814<a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977258,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">   &#128205;Map </a>
             </h6>
+            <script>
+                var date = document.lastModified;
+                document.write("Last Updated: " + date);
+            </script>
         </footer>
     
 </body>
 <script type="module" src="js/temple.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/weather.js"></script>
 </html>
