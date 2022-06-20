@@ -17,14 +17,14 @@
     
     <main>
         <h3>Chapter 8 Forms</h3>
-        <p>What I learned from reading about Forms, is that forms are made up of a <form> element that contains form controls such as input fields, select menus and buttons. These input fields can be populated with information that is processed once the form has been submitted.
+        <p>What I learned from reading about Forms, is that forms are made up of a <form> element that contains form controls such as input fields, select menus and buttons. These input fields can be populated with information that is processed once the form has been submitted.</p>
 
-            Traditionally, when a form was submitted, it would be sent to a server where the information would be processed using a 'back end' language such as PHP or Ruby. It’s possible, and becoming more and more common, to process the information in a form on the 'front end' before it is sent to the server using JavaScript, which is what we’ll be focusing on in this chapter.
+            <p>Traditionally, when a form was submitted, it would be sent to a server where the information would be processed using a 'back end' language such as PHP or Ruby. It’s possible, and becoming more and more common, to process the information in a form on the 'front end' before it is sent to the server using JavaScript, which is what we’ll be focusing on in this chapter.
             </p>
 
         <h3>Using Form Data Objects Effectively</h3>
-        <p>In this video the author explains how you can get all elements in a Form element, without having to create variables for each one of them. To do it he uses the FormData object, which gets everything inside a form and then you can send that information to the server. Also, shows how you can turn your Form object into JSON, so that you can send JSON to the server instead. The most important things to remember from this video are, first, that all your inputs should have a name for the FormData object to work; second, you should prevent the submit button to send information by default using the “preventDefault()” method.
-            Example of code:
+        <p>In this video the author explains how you can get all elements in a Form element, without having to create variables for each one of them. To do it he uses the FormData object, which gets everything inside a form and then you can send that information to the server. Also, shows how you can turn your Form object into JSON, so that you can send JSON to the server instead. The most important things to remember from this video are, first, that all your inputs should have a name for the FormData object to work; second, you should prevent the submit button to send information by default using the “preventDefault()” method.</p>
+            <p>Example of code:
             label for="username">Username:
             input type="text" id="username" name="username" required
             -The username is required to send the information from the Form. Nothing will happen until that input is filled correctly.
