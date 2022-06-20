@@ -1,0 +1,36 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juvenato Mendes-Neto | Lesson05</title>
+    <link rel="stylesheet" href="../css/small.css">
+</head>
+<body>
+
+    <header>
+        <h1>WDD 330 - Web Delevopment II</h1>
+        <h2>Juvenato Mendes-Neto - Lesson 5 Notes</h2>
+    </header>
+    
+    <main>
+        <h3>Chapter 13 AJAX</h3>
+        <p>The term 'Ajax' was coined by Jesse James Garrett in 2005 in the article “Ajax: A New Approach to Web Applications,” where he referred to techniques being used by Google in its recent web applications.
+            Ajax is a technique that allows a webpage to request information from a server asynchronously, and then update the webpage without a full reload with the retuned information. When the internet was just starting, webpages were static, and changing things in webpage required a full reload of the page. Some companies started developing techniques to allow asynchronous communication between pages and servers to update just some parts of the page with new information. The acronym for Ajax referred to the different parts of the process: Asynchronous JavaScript and XML. This is a little description of each part:
+            Asynchronous means that the page doesn’t have to wait for a response from the server to continue doing his stuff. The webpage receives a “promise” and then, when the response is ready, it can continue to manage the information just received.
+            JavaScript is the one in charge of managing the asynchronous requests and responses. Then with the data received in responses it updates the webpage.
+            XML documents were commonly used to carry data from servers to webpages. There are many types of data that can be used, but nowadays JSON is the most used.
+            The Fetch API is the way we can make such asynchronous communication with a server. There is “fetch” method that takes only one required argument, and URL from where you want to get your information. Then, you can do something with that information (example: fetch(“URLas-a-string”).then(code to handle the response)).
+            There are many methods or properties to manage or “configure” your responses, your requests, and to send information to the server.
+            </p>
+    </main>
+
+    <footer>
+        <h2><a href="../index.html"><-- Home</a></h2>
+        <p>&copy <span id="current-year"></span> | Juvenato Mendes-Neto | Boston </p>
+        <p>Last update <span id="last-update"></span></p>
+    </footer>
+    
+</body>
+</html>
