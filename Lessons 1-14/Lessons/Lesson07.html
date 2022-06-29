@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juvenato Mendes-Neto | L07</title>
+    <link rel="stylesheet" href="../css/small.css">
+    <script src="../js/portfolio.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>WDD 330 - Web Delevopment II</h1>
+        <h2>Juvenato Mendes-Neto - Lesson 7 Notes</h2>
+    </header>
+    
+    <main>
+        <h3>Chapter 11: Further Functions</h3>
+        <p>As I was reading chapter 11 of further functions, the thing I read that I found myself most interested in was about callbacks and how they are used in asynchronous programming. Callbacks are functions that are passed to other functions as arguments, and then used inside these last functions. They are used asynchronously with events. For example, a callback could be a function like clicking the mouse. This would work asynchronously because the program won’t wait until someone clicks to trigger that function. It will pass the callback function to a queue, then process the rest of the code, and then once it’s done, it will check if someone clicked, and if that’s the case, it runs the callback function. They talk also about something called callback-hell, which is when you have too many nested callbacks. Because asynchronous programming can be used when your callbacks are waiting for a response from the server, sometimes errors happen. To solve this, there is a promise-based approach. A promise, as the book explains, “represents the future result of an asynchronous operation.” You don’t get an immediate result to work with, but instead, a promise, that when is settled it can return a result of resolved or rejected (error, or success). You can use the “then” and “catch” methods to handle the response once is settled; the first to handle a successful response, and the second to handle errors. This method allows us to create a chain of handlers so you can avoid callback hell. You can create promises, using a constructor function.</p>
+
+        <p>Also, the chapter talks about higher-order functions. Higher-order functions are functions that accept another function as an argument, or return another function as a result, or both.
+            Closures are used extensively in higher-order functions as they allow us to create a generic function that can be used to then return more specific functions based on its arguments. This is done by creating a closure around a function's arguments that keeps them 'alive' in a return function. For example, consider the following multiplier () function:
+            </p>
+            <p> function multiplier(x) {return function(y) {return x*y;}}</p>
+
+            <p>The multiplier () function returns another function that traps the argument x in a closure. This is then available to be used by the returned function.</p>
+
+        <h3>Chapter 8: Transforms and Transitions</h3>
+
+        <p>In CSS you can use the “transform” property to change the position of an element on your page. There are four functions explained that you can use in the transform property: translate, scale, rotate and skew. When you use these functions of transform, they won’t affect the flow of the page. For example, changing the font-size could push elements around the text, but using transform all elements would stay in their place. Changes are relative to the center of the element, but you can change this with the transform-origin property, which changes the reference points for transforms. Here’s a little example of how you would use the transform property with three functions: “transform: rotate(10deg) translate(40px) scale (1.5);” The order in which you put your functions matters. A change following a previous one will take as its point of reference the position of the element after the previous transform function. In the last example, the element would rotate 10 degrees first, and then over its current rotated X-axis, it would move 40px.</p>
+
+        <p>The chapter also talks about “transitions.” When you make any change in your elements with transform, you can trigger those changes with a “hover” or by changing class names of your elements using JS. But you would see your elements transforming from their original appearance to the new one instantaneously. Transitions will help you move from one appearance state to the other smoothly. The properties covered in the chapter are transition-property, transition-duration, transition-timing-function, and transition-delay. They reference the property to which you want to apply the transition, set the duration of the transition, set the speed variances throughout the transition, and the time for the transition to trigger once a change occurs respectively. identified with percentages. In each frame, you can state what change or transformation you want to make on your elements.</p>
+    </main>
+
+    <footer>
+        <h2><a href="../index.html"><-- Home</a></h2>
+        <p>&copy <span id="current-year"></span> | Juvenato Mendes-Neto | Boston </p>
+        <p>Last update <span id="last-update"></span></p>
+    </footer>
+    
+</body>
+</html>
