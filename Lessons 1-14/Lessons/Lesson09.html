@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juvenato Mendes-Neto | L09</title>
+    <link rel="stylesheet" href="../css/small.css">
+    <script src="../js/portfolio.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>WDD 330 - Web Delevopment II</h1>
+        <h2>Juvenato Mendes-Neto - Lesson 9 Notes</h2>
+    </header>
+    
+    <main>
+        <h3>Chapter 14: HTML5 APIs</h3>
+        
+        <p>this chapter explains the Web Storage API. This API stores information in the user’s computer which is not shared with the server. In most browsers it has a limit of 5 MB (The book says 5 GB) and it stores information in key-value string pairs. Although you can use only strings, you can store JSON data as a string that can be turned in to a JS object. There are two objects in the Web Storage API, localStorage which saves information even if you close the browser, and sessionStorage that saves information only for the current session. Local storage can be accessed by the domain that created it. These two are properties of the window object.</p>
+
+        <p>Secondly, I learned about Geolocation API, which is used to get information about geographical the position of the device. The user will be asked for permission before we can use the API. The geolocation is a property from the navigator object. It has a method called getCurrentPosition() that returns a position that then is passed into a callback function (navigator.geolocation.getCurrentPosition(callbackFunction); / the callback function receives the position object). The position has several properties that can be used by the callback function, such as position.coords.latitude and position.coords.longitude.</p>
+
+        <p>I also learened about Shims and Polyfills,the terms shim and polyfill are often used interchangeably. The main difference between them is that a shim is a piece of code that adds some missing functionality to a browser, although the implementation method may differ slightly from the standard API. A polyfill is a shim that achieves the same functionality, while also using the API commands that would be used if the feature was supported natively.</p>
+
+        <p>Which means that your code can use the APIs as normal and it should work as expected in older browsers. The advantage here is that the same set of standard API commands can be used ― you don’t need to write additional code to deal with different levels of support. And when users update their browsers, the transition will be seamless, as their experience will remain the same. Once you are confident that enough users have up-to-date browsers, you can remove the polyfill code without having to update any actual JavaScript code.</p>
+
+        <h3>Chapter 12: Canvas, SVG, and Drag and Drop</h3>
+
+        <p>Chapter 12 explains about the Canvas element, which is an element that you can draw shapes or change images and videos. There are many different functions in JS to draw and edit images. Then it explains SVG images, which are images that are drawn using XML. drawing complex SVG images is a bit complicated by hand so they recommend using an editor called Inkscape, or a library called Raphaël to create or edit SVG images.</p>
+
+        <p>Also, the chapter explains the Drag and Drop API. This API allows you to create set draggable elements in the DOM that then can be dropped inside other elements. What happens when you drag and drop and element is handled with event listeners, and you have to add a draggable attribute to true to the elements that you want to drag.</p>
+    </main>
+
+    <footer>
+        <h2><a href="../index.html"><-- Home</a></h2>
+        <p>&copy <span id="current-year"></span> | Juvenato Mendes-Neto | Boston </p>
+        <p>Last update <span id="last-update"></span></p>
+    </footer>
+    
+</body>
+</html>

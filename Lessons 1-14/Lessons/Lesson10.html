@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juvenato Mendes-Neto | L10</title>
+    <link rel="stylesheet" href="../css/small.css">
+    <script src="../js/portfolio.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>WDD 330 - Web Delevopment II</h1>
+        <h2>Juvenato Mendes-Neto - Lesson 10 Notes</h2>
+    </header>
+    
+    <main>
+        <h3>An Introduction to Functions, Execution Context and the Call Stack</h3>
+        
+        <p>What I understood from this video is a computer or browser reads and excutes their code in one line at a time. Because along the code we’ll find also some pieces of code inside of functions the way the computer runs our code follows a pattern.</p>
+
+        <p>Going one line at a time is called the Thread of Execution. When the code starts to run it begins in the global execution thread (basically where all of our code is written). Then the global execution is stacked in the Call Stack, that is the place where our computer is going to organize the work that it is doing. So, what happens when the computer reads a line with a variable and a value assigned to it? The browser stores it in the Global Memory for later use. Something similar happens when you declare a function, the computer won’t run code inside of it, instead it stores the function name (or tag) and the code related in the global memory.</p>
+
+        <p>Now, if our computer continues reading the code and now encounters a function invocation, the code inside the function will be added to the Call Stack and the computer will execute it. So, a new execution context will start, and our thread of execution is going “inside” the function and starts reading its code one line at a time.</p>
+
+        <h3>How to Understand Callbacks and Higher Order Functions</h3>
+
+        <p>Three functions are created in the video, one to multiply items in an array by two and then returning and array with the numbers multiplied. The second function divides items in an array by two and then returns and array with the numbers divided. The third function adds three to each item in an array and then returns and array with the numbers plus three.</p>
+
+        <p>By using what we know about higher order functions and callbacks. We can create a function that accepts the array as an argument and a callback. The callback will be called inside the higher order function. The callback function passed is the piece of code that will perform different operations to the array, and the higher order function will return the new array. This way we can use the same function for many different operations; operations that we can define in a callback function.</p>
+
+    </main>
+
+    <footer>
+        <h2><a href="../index.html"><-- Home</a></h2>
+        <p>&copy <span id="current-year"></span> | Juvenato Mendes-Neto | Boston </p>
+        <p>Last update <span id="last-update"></span></p>
+    </footer>
+    
+</body>
+</html>
